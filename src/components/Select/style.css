@@ -1,0 +1,16 @@
+.select {
+  width: 100%;
+  border: none;
+  color: #666;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  transition: 0.4s all;
+  letter-spacing: 0.09rem;
+  border-bottom: 2px solid #666;
+  background-color: transparent;
+}
+
+.select:active,
+.select:focus {
+  outline: none;
+}

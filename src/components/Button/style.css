@@ -1,0 +1,30 @@
+.button {
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.55rem;
+  transition: 0.3s all;
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+  background: var(--color-primary-light);
+  border: none;
+}
+
+.button:hover {
+  animation: shadow-pulse 1s infinite;
+  transform: scale(1.04);
+}
+
+.button:active,
+.button:hover {
+  outline: none;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
+}

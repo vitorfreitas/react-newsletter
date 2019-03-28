@@ -1,0 +1,49 @@
+.card {
+  width: 34rem;
+  overflow: hidden;
+  min-height: 29.5rem;
+  background: #333;
+  position: relative;
+  border-radius: 5px;
+  padding: 2.75rem 2.2rem;
+  box-shadow: 0 0 2.4rem 0 rgba(0, 0, 0, 0.75);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .card > * {
+  z-index: 2;
+}
+
+.card::after {
+  left: 0;
+  z-index: 1;
+  content: '';
+  width: 100%;
+  height: 50%;
+  bottom: -3rem;
+  position: absolute;
+  transform: skewY(170deg);
+  background-color: #ccc;
+} */
+
+.card__title {
+  color: #999;
+  font-weight: 400;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+.card__title--focus {
+  color: #fff;
+  font-weight: 600;
+  font-style: normal;
+  margin-right: 0.3rem;
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.card__inputs > * {
+  margin-bottom: 1.15rem;
+}

@@ -1,0 +1,28 @@
+.input {
+  width: 100%;
+  border: none;
+  color: #ccc;
+  padding: 1rem 0;
+  transition: 0.4s all;
+  background: transparent;
+  border-bottom: 2px solid #666;
+}
+
+.input::placeholder {
+  color: #666;
+  font-size: 1.6rem;
+  letter-spacing: 0.04rem;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #ccc;
+}
+
+.input[type='number']::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.input:focus::placeholder {
+  color: #ccc;
+}
